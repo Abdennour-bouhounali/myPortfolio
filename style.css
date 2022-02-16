@@ -1,0 +1,393 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+body{
+    padding: 0px; 
+}
+.container{
+   
+ 
+    margin: 0px;
+    width: 100%;
+    display: block;position: absolute
+    ;direction:rtl;
+
+    
+}
+
+.nav{
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    background-color: #040B14;
+   display: inline-block;
+   border-right:solid ;
+   border-width: 2px;
+   border-color: #fff;
+
+   
+}
+.topnav{
+   
+padding-top: 20px;
+    width: 100%;
+    height: 30%;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+ 
+}
+.picture{
+    margin:auto ;
+    width: 50%;
+    padding: 3px;
+    padding-bottom: 0px;
+    border-radius: 50%;
+    background-color: #7B7878;
+    text-align: center;
+    border-width: 0px;
+}
+
+.mypicture{
+   width:  100%;
+margin:auto;
+padding-top: 2px;
+}
+.topnav  h2{
+    margin-top: 35px;
+    color: #ffffff;
+}
+.topnav h3{
+    margin-top: 15px;
+    color: #ffffff;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+
+}
+
+.socialmedia{
+    margin-top: 25px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.socialmedia a .fab{
+    font-size: 30px;
+    color: #ffffff;transition: .5s;
+}
+.socialmedia .fab:hover{
+    color: rgb(138, 137, 137);
+    transition: .5s;
+}
+.pages{
+    width: 100%;
+    text-align: center;
+    padding-top: 35px;
+    
+}
+.pages a{
+    justify-content: space-evenly;
+    display: flex;
+    
+    
+    text-align: right;
+}
+.pages ul a li{
+    list-style: none;
+    margin: 20px 0px;
+    color: #fff;
+    font-size: 23px;
+    transition: .5s;
+    
+}
+.pages .fas{
+    color: #fff;
+    margin: 22px 5px;
+    font-size: 20px;
+    transition: .5s;
+}
+.pages li:hover{
+    color: rgb(138, 137, 137);
+    transition: .5s;
+}
+.pages .fas:hover{
+    color: rgb(138, 137, 137);
+    transition: .5s;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.mainheader{
+    width: 70%;
+    height:100vh;
+    width: 75%;
+   
+   opacity: .9;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    background-image: url('images/mainheader.jpg');
+  
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-origin: border-box;
+    background-position: 50% 50%;
+    text-align: center;
+
+}
+.welcome h1{
+    font-size: 3.6vw;
+   direction: ltr;
+  
+   white-space: nowrap;
+   overflow: hidden;
+   width: 100%;
+   /* added animation property to show the character one at a time*/
+   animation: type 3s steps(50, end);
+   
+}
+.welcome{
+    direction: ltr;
+color: #ffffff;
+margin: auto;
+width: 42.5vw;
+height: 4.5vw;
+padding: 10px 15px;
+border: solid;
+border-width: 5px;
+border-color:#0a1729  ;
+border-style: outset;
+background-color: hsl(0, 0%, 0%,.5);
+text-align: center;
+}
+
+@keyframes type{
+from {
+    width: 0;
+    }
+ 
+
+}
+/* my works */
+.line{
+    width: 100%;
+    height: 50px;
+    background-color:#0a1729 ;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: #fff;
+    border-width: 3px;
+}
+.title{
+    font-size: 56px;
+    font-family: cursive;
+    color: #fff;
+    margin-bottom: 30px;
+
+}
+#myworks{ 
+    margin: 0px;
+    width: 75%;
+    min-height: 2120px;
+    padding: 110px auto;
+    padding-bottom: 90px;
+    padding-top: 90px;
+    background-color:#000000 ;
+    display: block;
+    text-align: center;
+
+    
+}
+#myworks h2{
+    color: #fff;padding: 15px;
+}
+button{
+    background-color: #fff;
+    color: #000;
+    padding: 10px 15px;
+    width: 150px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    border: none;
+    transition: .5s;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+button:hover{
+    cursor: pointer;
+    background-color: goldenrod;
+    transition: .5s;
+}
+.webs{
+    width: 50%;
+    height:auto ;
+    margin: 0px auto;
+    margin-top: 50px;
+    border: outset;
+    border-width: 5px;
+    border-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+#myworks .webs img{
+    opacity: .5;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    transition: .5s;
+}
+
+#myworks .webs img:hover{
+    opacity: 1;
+    transition: .5s;
+}
+
+#services{
+    text-align: center;
+    width: 75%;
+    padding:50px;
+    background-color: #000;
+    color: #fff;
+    display: block;  direction: ltr;
+}
+#services p,#myskills p{
+    width: 70%;
+    margin: 30px auto;
+    line-height: 25px;
+    letter-spacing: 3px;
+    border-style: outset;
+    border:solid;
+    border-width: 3px;
+    padding:20px;
+    font-size: 20px;
+    
+}
+#services li{
+    
+    font-size: 25px;
+    list-style: square;
+    width: 250px;
+    margin: 30px auto;
+    text-align: left;
+}
+
+#myskills{
+    width: 75%;
+    min-height:350px;
+    background-color:#040B14 ;
+    display: block;
+   text-align: center;
+padding: 20px;
+color: #fff;
+}
+.skill{
+    width: 80%;
+    height: 15px;
+    display: inline-block;
+    position: relative;
+ 
+   margin: 10px;
+   text-align: left;
+   padding: 10px;
+}
+.skill .reference{
+    direction: ltr;
+    margin: 0px ;
+    position: absolute;
+    top: 0px;
+    left: auto;
+    right: 10%;
+    width: 47vw;
+    background-color: rgb(49, 49, 49);
+    height: 100%;
+    
+}
+.skillname{
+    font-family: fantasy;
+    font-size: 20px;
+
+}
+.persentagehtml{
+    width: 99%;
+    height: 100%;
+    background-color: #fff;
+}
+.persentagecss{
+    width: 85%;
+    height: 100%;
+    background-color: #fff;
+}
+.persentagejs{
+    width: 70%;
+    height: 100%;
+    background-color: #fff;
+}
+.persentagephp{
+    width: 40%;
+    height: 100%;
+    background-color: #fff;
+}
+#contactme{
+    direction: ltr;
+    width: 75%;
+    height: 650px;
+    background-color:#040B14 ;
+    color: #fff;
+    display: block;
+    padding: 30px 0px 30px 0px;
+    text-align: center;
+    
+}
+#contactme p{
+    margin: 15px auto;
+    width: 70%;
+    font-size: 20px;
+    letter-spacing: 3px;
+    line-height: 25px;
+    border-style: outset;
+    border:solid;
+    border-width: 3px;
+    padding:20px;
+    
+}
+.info{
+    width: 60%;
+    margin: 15px auto;
+}
+.info input,textarea{
+    margin-top: 20px;
+padding: 10px;
+font-size: 20px;
+letter-spacing: 3px;
+border: unset;
+border-radius: 5px;
+}
+.button{
+    margin-top: 20px;
+    width: 150px;
+    padding:5px 20px;
+    font-size: 25px;
+    background-color: goldenrod;
+    color: #040B14;
+    border-radius: 5px;
+    outline: none;
+    border:none
+}
